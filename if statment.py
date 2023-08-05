@@ -21,12 +21,12 @@ def Area_circle(redius):
          print("Area invalid ")
 Area_circle(5)
 
-def rectangle(L1,H):
-    Area = 0.5*L1*H
+def rectangle(L1,L2):
+    rectangle = L1*L2
     if rectangle >= 10:
          print("Area high")
     elif rectangle <= 10:
          print("Area low")
     elif rectangle == 0:
          print("Area invalid ")
-rectangle(2,5)
+rectangle(2,4)

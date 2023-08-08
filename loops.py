@@ -12,9 +12,9 @@ while True:
                           "2. subtract/n"
                           "3. multiplication/n"
                           "4. division/n"
-                          "5. Area triangle"
-                          "6. Area circle"
-                          "7. Area rectangle"
+                          "5. Area triangle/n"
+                          "6. Area circle/n"
+                          "7. Area rectangle/n"
                           "8. Exit"))
     while True:
         if selection <=0:

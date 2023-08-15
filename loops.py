@@ -8,13 +8,13 @@ redius = int(input("Enter redius"))
 
 
 while True:
-    selection = int(input("1. add/n"
-                          "2. subtract/n"
-                          "3. multiplication/n"
-                          "4. division/n"
-                          "5. Area triangle/n"
-                          "6. Area circle/n"
-                          "7. Area rectangle/n"
+    selection = int(input("1. add\n"
+                          "2. subtract\n"
+                          "3. multiplication\n"
+                          "4. division\n"
+                          "5. Area triangle\n"
+                          "6. Area circle\n"
+                          "7. Area rectangle\n"
                           "8. Exit"))
     while True:
         if selection <=0:
@@ -22,9 +22,9 @@ while True:
         else:
             selection = int(input("Invalid Input , Enter Valid selection"))
 
-    if selection == 1:
-        add = n1 + n2
-        print(add(n1,n2))
+    if selection == (n1,n2):
+        for add in range (n1,n1):
+            print  (f"{n1+n2}={n1+n2}")
     elif selection == 2:
         sub = n1 * n2
         print(sub(n1, n2))

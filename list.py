@@ -14,7 +14,7 @@ def main():
         max_mark = max(marks)
         min_mark = min(marks)
 
-    print(my_marks)
-    print(average)
-    print("Max Mark = ", max(my_marks))
-    print("Min Mark = ", min(my_marks))
+print(my_marks)
+print(average)
+print(my_marks)
+print(my_marks)
